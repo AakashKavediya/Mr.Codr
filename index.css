@@ -147,6 +147,19 @@ main {
     background-color: #fff;
 }
 
+#headerr {
+    margin-right: 10px;
+    margin-left: 60px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #fff;
+}
+
+main h2 {
+    border-bottom: 7px solid whitesmoke;
+}
+
 
 /* ---------MEDIA--------------------------------------------------------------------------------- */
 
@@ -155,5 +168,8 @@ main {
         padding-left: 0;
         padding-right: 0;
         padding: 8px;
+    }
+    #headerr {
+        font-size: 18px;
     }
 }
