@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    background-color: whitesmoke;
+}
+
+
+/* -------------ASIDE----------------------------------------------------------------------------- */
+
 aside {
     background-color: rgba(0, 0, 0, 0.904);
     color: white;
@@ -38,6 +46,7 @@ aside ol li {
     margin-left: 10px;
     padding: 10px;
     display: block;
+    transition: .5s;
 }
 
 aside ol li i {
@@ -74,6 +83,16 @@ aside:hover {
     overflow-y: scroll;
 }
 
+aside ol li:hover {
+    border-left: 5px solid #fff;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+aside ol li a:hover {
+    color: white;
+}
+
 ::-webkit-scrollbar {
     width: 3px;
     border-radius: 10px;
@@ -89,6 +108,7 @@ aside:hover {
     height: 60px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 #profile #left img {
@@ -113,4 +133,16 @@ aside:hover {
     color: black;
     font-family: 'Oswald', sans-serif;
     font-size: 15px;
+}
+
+
+/* ------MAIN----------------------------------------------------------------------------------- */
+
+main {
+    margin-right: 10px;
+    margin-left: 60px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #fff;
 }
