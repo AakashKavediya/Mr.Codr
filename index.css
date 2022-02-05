@@ -150,7 +150,7 @@ main {
 
 /* ---------MEDIA--------------------------------------------------------------------------------- */
 
-@media(max-width:500px) {
+@media(max-width:680px) {
     main {
         padding-left: 0;
         padding-right: 0;
