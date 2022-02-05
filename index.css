@@ -146,3 +146,14 @@ main {
     padding-right: 50px;
     background-color: #fff;
 }
+
+
+/* ---------MEDIA--------------------------------------------------------------------------------- */
+
+@media(max-width:500px) {
+    main {
+        padding-left: 0;
+        padding-right: 0;
+        padding: 15px;
+    }
+}
