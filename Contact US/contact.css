@@ -189,7 +189,7 @@ body {
 
 .area {
     background-color: #fff;
-    height: 100%;
+    /* height: 100%; */
     border-radius: 30px;
     padding: 20px;
     /* border: 5px solid #ededed; */
@@ -220,11 +220,11 @@ form #row b {
     width: 100px;
     text-align: left;
     font-family: 'Kanit', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 form #row input {
-    width: 200px;
+    width: 220px;
     padding: 5px;
     border-radius: 7px;
     outline: none;
@@ -234,7 +234,7 @@ form #row input {
 }
 
 form #row textarea {
-    width: 200px;
+    width: 220px;
     height: 90px;
     padding: 5px;
     border-radius: 7px;
@@ -292,18 +292,18 @@ form button {
     }
     form #row b {
         width: 110px;
-        font-size: 14px;
+        font-size: 13px;
     }
     form #row input {
-        width: 180px;
+        width: 130px;
         font-size: 15px;
     }
     form #row textarea {
-        width: 180px;
+        width: 200px;
         font-size: 15px;
     }
     body {
-        padding: 5px;
-        padding-top: 30px;
+        /* padding: 5px; */
+        /* padding-top: 30px; */
     }
 }
