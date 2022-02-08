@@ -17,10 +17,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Home Page - Mr. Codr</title>
 </head>
 
 <body>
+
+    <!-- ---ASIDE------------------------------------------------------------------------------------------- -->
+
     <aside>
         <div id="head">
             <i class="fas fa-bars"></i>
@@ -53,7 +57,7 @@
             </li>
             <li>
                 <i class="fas fa-user"></i>
-                <a href="#">Contact Us</a>
+                <a href="./Contact US/contact.html">Contact Us</a>
             </li>
         </ol>
         <h3><span>S</span>ocial Media</h3>
@@ -84,7 +88,7 @@
             </li>
             <li>
                 <a href="https://www.youtube.com/channel/UCgJJ_7dLWSGvYIEdNkJlQDQ"><i class="fab fa-youtube"></i>
-                Youtube</a>
+                    Youtube</a>
             </li>
         </ol>
         <div id="profile">
@@ -95,74 +99,19 @@
             </div>
         </div>
     </aside>
+
+    <!-- -------MAIN------------------------------------------------------------------------------------ -->
     <br>
     <div id="headerr">
-        <h2>Contact Us </h2>
+        <h2>Mr. Codr</h2>
     </div> <br>
     <main>
-
-        <div class="area">
-            <form onsubmit="sendEmail(); reset(); return false; ">
-                <h2>Contact Us</h2>
-                <div id="row1">
-                    <b>Last Name:</b><br><input type="text" required name="Username" id="lastname" placeholder="Enter Last Name">
-                </div>
-
-                <div id="row2">
-                    <b>First Name:</b><br><input type="text" required name="Username" id="Username" placeholder="Enter First Name">
-                </div>
-
-                <div id="row1">
-                    <b>E-mail:</b><br><input type="email" required name="E-mail" id="e-mail" placeholder="Enter E-mail">
-                </div>
-
-                <div id="row2">
-                    <b>Phone No: </b><br><input type="number" required name="number" id="number" placeholder="Enter Number">
-                </div>
-
-                <div id="row3">
-                    <b>Message:</b><br><textarea name="area" required id="area" cols="30" rows="10" placeholder="Enter Your Address"></textarea>
-                </div>
-
-
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-
-        <div style="margin-bottom: 30px;" class="dis">
-            <h3>See Here!</h3>
-            <b>After clicking on SUBMIT button wait for a second. An alert will come, then click on OK. If you will not
-                click on OK the the message will not get sent to MR. Codr. Please type all the corret information other
-                wise a strict action will be take against you. </b>
-        </div>
-
-
         <footer>
             <p><i class="fas fa-copyright"></i>Copy Right - Mr. Codr - 2022-2025</p>
         </footer>
     </main>
 
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
-    <script>
-        function sendEmail() {
-            Email.send({
-                Host: "smtp.gmail.com",
-                Username: "kavediyaaakash@gmail.com",
-                Password: "pbtubogtmckpjcsq",
-                To: 'kavediyaaakash@gmail.com',
-                From: document.getElementById("e-mail").value,
-                Subject: "Shopping HTML Form Is Submitted",
-                Body: "First Name : " + document.getElementById('Username').value +
-                    "<br> Last Name : " + document.getElementById('lastname').value +
-                    "<br>  E-Mail : " + document.getElementById('e-mail').value +
-                    "<br> Phone No : " + document.getElementById('number').value +
-                    "<br> Address : " + document.getElementById('area').value
-            }).then(
-                message => alert(message)
-            );
-        }
-    </script>
+
 
 </body>
 

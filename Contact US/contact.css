@@ -195,36 +195,56 @@ body {
     /* border: 5px solid #ededed; */
 }
 
-h1 {
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+form h2 {
     font-family: 'Rubik', sans-serif;
-    border-bottom: 5px solid Whitesmoke;
-    padding-bottom: 10px;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    margin-bottom: 20px;
-}
-
-form #row {
-    padding: 15px;
-    margin-left: auto;
+    font-size: 30px;
+    padding-left: 20px;
     margin-right: auto;
+    height: 60px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.664);
 }
 
-form #row b {
+form #row1 {
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    float: right;
+}
+
+form #row2 {
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    /* float: left; */
+}
+
+form #row3 {
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+}
+
+form b {
     width: 100px;
     text-align: left;
     font-family: 'Kanit', sans-serif;
     font-size: 15px;
 }
 
-form #row input {
-    width: 220px;
+form #row1 input,
+form #row2 input {
+    width: 250px;
+    height: 40px;
     padding: 5px;
     border-radius: 7px;
     outline: none;
@@ -233,8 +253,8 @@ form #row input {
     font-family: 'Arimo', sans-serif;
 }
 
-form #row textarea {
-    width: 220px;
+form #row3 textarea {
+    width: 300px;
     height: 90px;
     padding: 5px;
     border-radius: 7px;
@@ -242,6 +262,18 @@ form #row textarea {
     border: 1px solid gray;
     font-size: 15px;
     font-family: 'Arimo', sans-serif;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 100%;
+    border: 2px solid #ededed;
+    /* padding: 10px; */
+    border-radius: 20px;
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
 }
 
 form button {
@@ -286,8 +318,8 @@ form button {
     }
 }
 
-@media(max-width:500px) {
-    h1 {
+@media(max-width:600px) {
+    form h2 {
         font-size: 20px;
     }
     form #row b {
@@ -302,8 +334,68 @@ form button {
         width: 200px;
         font-size: 15px;
     }
-    body {
-        /* padding: 5px; */
-        /* padding-top: 30px; */
+    form #row1 {
+        padding: 10px;
+        margin-right: none;
+        margin-left: none;
+        /* display: block; */
+        float: left;
+        text-align: left;
+        padding-left: 20px;
+    }
+    form #row2 {
+        padding: 10px;
+        margin-right: none;
+        margin-left: none;
+        display: block;
+        float: left;
+        text-align: left;
+        padding-left: 20px;
+    }
+    form #row3 {
+        padding: 10px;
+        /* margin-right: auto; */
+        /* margin-left: auto; */
+        display: block;
+        text-align: left;
+        padding-left: 20px;
+    }
+    form b {
+        width: max-content;
+        text-align: left;
+        font-family: 'Kanit', sans-serif;
+        font-size: 15px;
+    }
+    form #row1 input,
+    form #row2 input {
+        width: 110%;
+        height: 30px;
+        padding: 5px;
+        border-radius: 7px;
+        outline: none;
+        border: 1px solid gray;
+        font-size: 15px;
+        font-family: 'Arimo', sans-serif;
+    }
+    form #row3 textarea {
+        width: 95%;
+        height: 90px;
+        padding: 5px;
+        border-radius: 7px;
+        outline: none;
+        border: 1px solid gray;
+        font-size: 15px;
+        font-family: 'Arimo', sans-serif;
+    }
+    form {
+        margin-left: auto;
+        margin-right: auto;
+        width: 105%;
+        height: 100%;
+        border: 2px solid #ededed;
+        /* padding: 10px; */
+        border-radius: 20px;
+        /* padding-left: 30px; */
+        /* padding-right: 30px; */
     }
 }
