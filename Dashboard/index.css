@@ -171,6 +171,35 @@ main h2 {
     border-bottom: 7px solid whitesmoke;
 }
 
+#html a {
+    background-color: #13D1E6;
+    height: 90px;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#Python a {
+    background-color: #13E66B;
+    height: 90px;
+}
+
+#js a {
+    background-color: #F58500;
+    height: 90px;
+}
+
+#rea a {
+    background-color: #00B4FF;
+    height: 90px;
+}
+
 #html header {
     font-family: 'Rowdies', cursive;
     font-size: 30px;
@@ -178,7 +207,7 @@ main h2 {
     margin-top: 10px;
 }
 
-#css header {
+#Python header {
     font-family: 'Rowdies', cursive;
     font-size: 30px;
     margin-bottom: 20px;
@@ -223,17 +252,6 @@ main h2 {
     border: 1px solid #ededed;
 }
 
-.box h3 {
-    color: black;
-    font-size: 20px;
-    margin-top: 8px;
-}
-
-.box a {
-    text-decoration: none;
-    text-align: center;
-}
-
 
 /* -----------------------Footer---------------------------------------------------------------------------- */
 
@@ -271,5 +289,11 @@ footer {
     }
     main ul li {
         font-size: 12px;
+    }
+    .box {
+        width: 250px;
+        height: max-content;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
