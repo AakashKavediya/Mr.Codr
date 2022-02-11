@@ -94,15 +94,6 @@ aside ol li a:hover {
     color: white;
 }
 
-
-/* 
-::-webkit-scrollbar {
-    width: 3px;
-    border-radius: 10px;
-    color: darkblue;
-    background-color: darkgray;
-} */
-
 #profile {
     background-color: #fff;
     padding: 5px;
@@ -295,8 +286,7 @@ form button {
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
-    /* background-color: red; */
+    width: 1px;
 }
 
 
