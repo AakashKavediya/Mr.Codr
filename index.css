@@ -204,9 +204,7 @@ main nav a {
 }
 
 video {
-    height: 85vh;
-    max-height: 100vh;
-    min-height: 60vh;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
