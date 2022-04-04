@@ -171,6 +171,21 @@ main h2 {
     border-bottom: 7px solid whitesmoke;
 }
 
+.left img {
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.left {
+    float: left;
+    margin-right: 20px;
+}
+
+.right {
+    font-size: 20px;
+}
+
 
 /* -----------------------Footer---------------------------------------------------------------------------- */
 
@@ -208,5 +223,12 @@ footer {
     }
     main ul li {
         font-size: 12px;
+    }
+    .left img {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
