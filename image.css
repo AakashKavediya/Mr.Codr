@@ -1,5 +1,5 @@
 .image img {
-    height: 200px;
+    height: 300px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
@@ -12,4 +12,13 @@
     margin-left: auto;
     margin-right: auto;
     overflow-x: scroll;
+}
+
+@media(max-width:590px) {
+    .image img {
+        height: 210px;
+    }
+    .image {
+        width: 95%;
+    }
 }
