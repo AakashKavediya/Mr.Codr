@@ -175,6 +175,12 @@ main h2 {
     width: 1px;
 }
 
+main .home a {
+    color: Cyan;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 
 /* -----------------------Footer---------------------------------------------------------------------------- */
 
