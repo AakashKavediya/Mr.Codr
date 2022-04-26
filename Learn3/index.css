@@ -176,7 +176,7 @@ main h2 {
 }
 
 span {
-    color: red;
+    /* color: red; */
     font-weight: 600;
 }
 
