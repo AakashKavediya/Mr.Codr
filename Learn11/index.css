@@ -150,6 +150,13 @@ main {
     padding-right: 50px;
     padding-bottom: 0;
     background-color: #fff;
+    /* overflow-x: scroll; */
+}
+
+.table {
+    width: 100%;
+    overflow-x: scroll;
+    margin-top: 10px;
 }
 
 #headerr {
@@ -173,6 +180,11 @@ main h2 {
 
 ::-webkit-scrollbar {
     width: 1px;
+}
+
+tr {
+    width: 9px;
+    overflow-x: scroll;
 }
 
 
