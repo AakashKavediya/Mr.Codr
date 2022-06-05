@@ -57,6 +57,9 @@ aside ol li i {
 aside ol li a {
     text-decoration: none;
     color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
 }
 
 aside ol li input {
@@ -187,7 +190,7 @@ main nav {
 }
 
 main nav a {
-    width: 150px;
+    width: 130px;
     background-color: whitesmoke;
     margin-right: 10px;
     display: block;
