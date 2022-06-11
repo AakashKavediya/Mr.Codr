@@ -22,3 +22,36 @@
         width: 95%;
     }
 }
+
+main {
+    /* width: 65%; */
+    /* float: left; */
+}
+
+#headerr {
+    /* width: 65%; */
+    /* float: left; */
+}
+
+#cont {
+    width: 65%;
+    float: left;
+    height: 100vh;
+    margin-left: 40px;
+    /* overflow: scroll; */
+}
+
+#nav {
+    width: 26%;
+    float: right;
+    height: max-content;
+    padding: 200x;
+    background-color: #fff;
+    margin-right: 30px;
+}
+
+#nav h2 {
+    text-align: center;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
